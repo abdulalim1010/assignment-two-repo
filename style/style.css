@@ -1,0 +1,95 @@
+
+
+.header-section{
+  background-image:url(../assets/bg.png);
+
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.head-school{
+  font-size: 2rem;
+  width:bold;
+}
+.link-bar{
+margin: 30px;
+  
+}
+.bar1{
+  color: orange;
+  font-size: 1.4rem;
+}
+.bar2{
+  color: skyblue;
+  font-size: 1.4rem;
+}
+.bar3{
+  font-size: 1.4rem;
+  color: skyblue;
+}
+.bar4{
+  font-size: 1.4rem;
+  color: #5D58EF;
+}
+.primary-btn{
+  padding: 10px 30px;
+  background-color: orange;
+  border-radius: 12px;
+}
+.nav-first{
+  display: flex;
+  
+}
+a{
+  text-decoration: none;
+  
+margin: 30px;
+}
+.layout{
+  display: flex;
+  justify-content: center;
+  
+  margin-left: 100px;
+  align-items: center;
+}
+.layout-text{
+  margin-top: 100px;
+  
+
+}
+.empower{
+  font-size: 3.5rem;
+}
+.layout-para{
+  font-size: 1.4rem;
+}
+.secondary-btn{
+  color: white;
+  background-color: black;
+  font-size: 1.4rem;
+  border-radius: 12px;
+}
+.kid-image{
+  
+  
+}
+@media screen  and (max-width:576px){
+  .layout{
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav-bar{
+    flex-direction: column;
+  }
+  .layout-text{
+    margin: 0px;
+    text-align: center;
+  }
+  .link-bar ,.head-school,.primary-btn{
+    visibility: hidden ;
+  }
+  
+}
