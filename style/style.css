@@ -127,6 +127,7 @@ gap: 30px;
   }
   .nav-bar,.middle-part{
     flex-direction: column;
+    padding: 0px;
   }
   .layout-text{
     margin: 0px;
