@@ -151,11 +151,12 @@ gap: 30px;
   border-radius: 20px;
 }
 .story-image{
-  border-radius: 20px 20px;
+  border-radius: 20px 20px 0px 0px;
+width: 100%;
 }
 .main1{
   background-color: white;
-  width: 300px;
+  width: 100%;
   
   border-radius: 10px;
 }
@@ -169,19 +170,21 @@ gap: 30px;
    background-color: white;
   width: 300px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .main4{
   background-color: white;
   width: 300px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 .main-images
 
  
 {
-  width: 300px;
-  border-radius: 10px;
+  width:100%;
+  border-radius: 10px 10px 0px 0px;
 
 }
 .final-btn{
@@ -231,7 +234,12 @@ ul.no-bullets{
   font-size: 2.8rem;
   color: white;
  }
-
+.padding{
+  padding: 40px;
+}
+.event{
+  padding: 20px;
+}
 
 
 
@@ -269,6 +277,7 @@ ul.no-bullets{
   align-items: center;
   padding: 0px;
 display: flex;
+width: 100%;
   
  }
  .story-part{
@@ -288,5 +297,8 @@ display: flex;
   .no-bullets{
     margin: 0px;
     padding: 0px;
+  }
+  .main1,.main2,.main3,.main4{
+    width: 100%;
   }
 }
