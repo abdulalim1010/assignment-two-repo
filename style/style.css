@@ -139,11 +139,12 @@ gap: 30px;
   grid-template-columns: repeat(2,1fr);
   display: grid; 
   gap: 20px;
-  
+   
 
 }
 .final-page{
-  background-image: linear-gradient(white,rgb(172, 120, 25));
+  background-image:url(../assets/bg.png);
+  background-color: #efd3a3;
   
 }
 .story-part{
@@ -240,6 +241,46 @@ ul.no-bullets{
 .event{
   padding: 20px;
 }
+.main1-btn{
+  background-color: rgba(149, 178, 38, 1);
+  padding: 10px 40px;
+  color: white;
+  border-radius: 10px;
+position: absolute;
+margin: -120px 0px -20px 20px;
+
+   
+} 
+.main2-btn{
+  background-color: rgb(113, 58, 110);
+  padding: 10px 40px;
+  color: white;
+  border-radius: 10px;
+position: absolute;
+margin: -120px -0px -20px 80px;
+
+  
+}
+.main3-btn{
+  background-color: rgb(38, 178, 61);
+  padding: 10px 40px;
+  color: white;
+  border-radius: 10px;
+position: absolute;
+margin: -140px 0px -20px 60px;
+
+  
+} 
+.main4-btn{
+  background-color: rgb(178, 101, 38);
+  padding: 10px 40px;
+  color: white;
+  border-radius: 10px;
+position: absolute;
+margin: -140px -0px -20px 40px;
+
+  
+}
 
 
 
@@ -272,12 +313,12 @@ ul.no-bullets{
     display: none;
   }
  .main-four {
+  grid-template-columns: repeat(2,1fr);
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0px;
-display: flex;
-width: 100%;
+
   
  }
  .story-part{
@@ -300,5 +341,8 @@ width: 100%;
   }
   .main1,.main2,.main3,.main4{
     width: 100%;
+  }
+  .main1-btn,.main2-btn,.main3-btn,.main4-btn{
+    margin: auto;
   }
 }
